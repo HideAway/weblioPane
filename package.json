@@ -2,12 +2,13 @@
     "name": "webliopane", 
     "license": "MPL 2.0", 
     "author": "HideAway", 
-    "version": "1.0", 
+    "version": "1.1", 
     "fullName": "weblioPane", 
     "id": "jid1-1kwrhAjlv91NKQ", 
     "description": "Weblio Panel",
     "icon" : "icon48.png",
     "preferences": [
-       { "name": "EnableWeblioPane", "type": "bool","value": true,"title": "Enable Weblio Pane" }
+       { "name": "EnableWeblioPane", "type": "bool","value": true,"title": "Enable Weblio Pane" },
+       { "name": "EnglishWordOnly", "type": "bool","value": false,"title": "English Word Only" }
     ]
 }
